@@ -27,8 +27,8 @@ export function CompletionStep({ data, onBack }: CompletionStepProps) {
     localStorage.setItem("userOnboardingData", JSON.stringify(data))
     localStorage.setItem("onboardingCompleted", "true")
 
-    // Redirect to main app
-    router.push("/")
+    // Redirect to payment wall instead of main app
+    router.push("/payment")
   }
 
   const getGoalName = (goalId: string) => {
@@ -127,8 +127,8 @@ export function CompletionStep({ data, onBack }: CompletionStepProps) {
             </div>
             <div className="p-4 bg-white rounded-lg border">
               <div className="text-2xl mb-2">💪</div>
-              <p className="font-medium text-gray-900">Workout Logging</p>
-              <p className="text-gray-600">Easy tracking for your favorite activities</p>
+              <p className="font-medium text-gray-900">Premium Features</p>
+              <p className="text-gray-600">Unlock advanced analytics and AI recommendations</p>
             </div>
           </div>
         </div>
@@ -146,18 +146,18 @@ export function CompletionStep({ data, onBack }: CompletionStepProps) {
             {isLoading ? (
               <>
                 <Loader2 className="h-5 w-5 mr-2 animate-spin" />
-                Setting up your dashboard...
+                Preparing your experience...
               </>
             ) : (
               <>
-                Start My Journey
+                Continue to Premium
                 <ArrowRight className="ml-2 h-5 w-5" />
               </>
             )}
           </Button>
         </div>
 
-        <p className="text-sm text-gray-500 mt-4">You can always update your preferences in settings later</p>
+        <p className="text-sm text-gray-500 mt-4">Start with a 7-day free trial • No commitment required</p>
       </CardContent>
     </Card>
   )
