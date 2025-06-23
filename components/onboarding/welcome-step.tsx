@@ -36,7 +36,7 @@ export function WelcomeStep({ data, updateData, onNext }: WelcomeStepProps) {
             </div>
           </div>
           <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-transparent mb-4">
-            Welcome to Your Fitness Journey!
+            Welcome to Your Athletic Journey Oumar 😉!
           </h1>
           <p className="text-xl text-gray-600 max-w-lg mx-auto">
             Let's personalize your experience and create a training plan that fits your goals, lifestyle, and
