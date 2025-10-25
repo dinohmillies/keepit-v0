@@ -18,7 +18,7 @@ Your project is live at:
 
 ## Build your app
 
-Continue building your app on:
+Continue Enhanicing our app on:
 
 **[https://v0.dev/chat/projects/O1VGkkafmGE](https://v0.dev/chat/projects/O1VGkkafmGE)**
 
@@ -28,3 +28,10 @@ Continue building your app on:
 2. Deploy your chats from the v0 interface
 3. Changes are automatically pushed to this repository
 4. Vercel deploys the latest version from this repository
+
+## We are working on (Confidential 🤫):
+
+1. Heat Map for All Field Players 🗺️
+2. Measurement Method for Fast Track 🤒
+3. Vocal Feature for classfified and labellised measure 🗣️
+4. Priority Classification for Future Features 👁️
